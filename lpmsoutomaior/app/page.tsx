@@ -7,7 +7,7 @@ import { About } from '@/components/About';
 import { Services } from '@/components/Services';
 import { Footer } from '@/components/Footer';
 
-export default function App() {
+export default function Page() {
   // Scroll Animation Logic
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -25,7 +25,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="antialiased selection:bg-[#6F7EDB]/30 selection:text-[#252A44]">
+    <div className="antialiased selection:bg-[#0ABAB5]/30 selection:text-[#1E2235]">
       {/* Content */}
       <div className="relative z-10">
         <Navbar />
