@@ -1,8 +1,0 @@
-{
-  "buildCommand": "cd lpmsoutomaior && npm run build",
-  "outputDirectory": "lpmsoutomaior/.next",
-  "installCommand": "cd lpmsoutomaior && npm install",
-  "framework": "nextjs",
-  "rootDirectory": "lpmsoutomaior"
-}
-
