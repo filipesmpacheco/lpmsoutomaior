@@ -25,14 +25,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="antialiased selection:bg-cyan-500/30 selection:text-cyan-200">
-      {/* Background Elements */}
-      <div className="mesh-bg" />
-      <div className="blob blob-1" />
-      <div className="blob blob-2" />
-      <div className="blob blob-3" />
-      <div className="noise-overlay" />
-
+    <div className="antialiased selection:bg-[#6F7EDB]/30 selection:text-[#252A44]">
       {/* Content */}
       <div className="relative z-10">
         <Navbar />
